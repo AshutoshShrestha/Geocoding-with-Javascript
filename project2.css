@@ -1,0 +1,101 @@
+#titleHead{
+	margin-top:-40px;
+	width:100%;
+	height:80px;
+	background-color:#668cff;
+	font-size:1.7em;
+	padding-bottom: 15px;
+}
+
+#secondaryTitle{
+	margin-top:-20px;
+	text-align:center;
+	width:100%;
+	height:50px;
+	background-color:#cc4400;
+	color:lightgrey;
+	font-size:1.2em;
+	padding-bottom: 10px;
+}
+
+p, li{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+body{
+	background-color: #99ffbb;
+}
+
+h1 {
+	color:#00cc66;
+	text-shadow: 3px 5px 10px #000;
+	text-align:center;
+}
+
+#searchForm{
+	margin-left:35%;
+}
+
+.hidden{
+	visibility: hidden
+}
+
+#mapid{
+	width:500px;
+	margin-top: 1em;
+	margin-left: 3em;
+	padding: 5px;
+	float:left;
+	height: 180px;
+	border: solid;
+}
+
+#addBtn{
+	background-color: black;
+	color:white;
+	font-size: 20px;
+	border: ridge grey;
+}
+#addBtn:hover{
+	color:black;
+	background-color:white;
+}
+
+#addressBarId{
+	width: 50%;
+	height:1.2em;
+	font-size: 1.2em;
+	border: solid black;
+}
+
+ul{
+	padding: 0;
+    max-height: 30em; 
+    overflow-y: auto;
+    overflow-x: none;
+	float: right;
+	position: relative;
+  	width: 400px;
+ }
+
+ul li button{
+	display: block;
+	cursor: pointer;
+	background-color: var(--light);
+	width: 350px;
+	height: 60px;
+	border-radius: 15px;
+	font-size: 1.3rem;
+	font-weight: 700;
+	background-size: 100% 100%;
+	margin-bottom: 2px;
+}
+
+ul li button:hover {
+  background-color:lightgreen;
+}
+
+ul li button:focus {
+  background-color:lightgreen;
+}

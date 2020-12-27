@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geocoding with JavaScript</title>
+    <link rel='stylesheet' type = 'text/css'href='project2.css'/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   	integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   	crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   	integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   	crossorigin=""></script>
+    <link href="https://api.mapbox.com/geocoding/v5/mapbox.places"></link>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+  <div id = "titleHead">
+    <p><h1>LocationFinder</h1></p>
+  </div>
+  <div id = "secondaryTitle"> 
+    <p>For searching and recording addresses</p>
+  </div>
+  <form id = "searchForm">
+    <div>
+        <p id="errorLabelId" style="color:red" >Invalid Address</p>
+        <input type="text" name="addressBar" id ="addressBarId" placeholder="Enter here"/>
+        <button type="button" id = "addBtn">Add</button>
+    </div>
+  </form>
+ 	<div id="mapid" style="width: 67%; height: 500px"></div>
+  <div id = "list">
+    <p id="addressHeader">Address List</p>
+  </div>
+</body>
+<script src='project2.js'></script>
+</html>
